@@ -133,12 +133,12 @@ public class MainActivity extends AppCompatActivity {
             locationComponent.setCameraMode(CameraMode.TRACKING);
             locationComponent.setRenderMode(RenderMode.COMPASS);
 
-            //assert locationComponent.getLastKnownLocation() != null;
-            //double currentLat = locationComponent.getLastKnownLocation().getLatitude();
-            //double currentLng = locationComponent.getLastKnownLocation().getLongitude();
-            // currentLatLng = new LatLng(currentLat,currentLng);
-            currentLatLng = new LatLng(35.756492,51.408772);
-            zoomToSpecificLocation(currentLatLng);
+            assert locationComponent.getLastKnownLocation() != null;
+            double currentLat = locationComponent.getLastKnownLocation().getLatitude();
+            double currentLng = locationComponent.getLastKnownLocation().getLongitude();
+            currentLatLng = new LatLng(currentLat,currentLng);
+            //currentLatLng = new LatLng(35.756492,51.408772);
+            //zoomToSpecificLocation(currentLatLng);
 
             locationComponent.addOnLocationClickListener(new OnLocationClickListener() {
                 @Override
