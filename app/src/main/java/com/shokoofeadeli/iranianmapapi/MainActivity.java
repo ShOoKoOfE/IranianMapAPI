@@ -1,7 +1,6 @@
 package com.shokoofeadeli.iranianmapapi;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.collection.LongSparseArray;
 import androidx.core.app.ActivityCompat;
@@ -34,8 +33,6 @@ import com.mapbox.mapboxsdk.plugins.annotation.OnSymbolLongClickListener;
 import com.mapbox.mapboxsdk.plugins.annotation.Symbol;
 import com.mapbox.mapboxsdk.plugins.annotation.SymbolManager;
 import com.mapbox.mapboxsdk.plugins.annotation.SymbolOptions;
-
-import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
