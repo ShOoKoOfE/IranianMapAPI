@@ -5,4 +5,8 @@
     <string name="enter_location">محل مورد نظرتان کجاست؟ </string>
     <string name="save">ذخیره</string>
     <string name="route">مسیریابی</string>
+    <string name="warning">توجه</string>
+    <string name="permission_warning">اجرای برنامه نیازمند اجازه دسترسی می باشد.</string>
+    <string name="create_permission">ایجاد مجوز</string>
+    <string name="close_app">لغو اجرای برنامه</string>
 </resources>
